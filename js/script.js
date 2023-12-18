@@ -1,11 +1,11 @@
 
 
-const RADIO_NAME = 'Rádio Pontas'
+const RADIO_NAME = 'Pontas fm'
 // SELECT ARTWORK PROVIDER, ITUNES, DEEZER & SPOTIFY  eg : spotify 
 var API_SERVICE = 'DEEZER';
 
 // Change Stream URL Here, Supports, ICECAST, ZENO, SHOUTCAST, RADIOJAR and any other stream service.
-const URL_STREAMING = 'https://stm1.voxplayer.com.br:7164/stream';
+const URL_STREAMING = 'http://cast.animu.com.br:3009/;?type=http&nocache=1702905167';
 
 //PASTE YOUR MEDIA CP JSON URL HERE TO GET NOW PLAYING SONG TITLE.
 const MEDIACP_JSON_URL = 'https://player.voxplayer.com.br/player-home-page/7164/musica/https://stm1.voxplayer.com.br:7164/stats?json=1&sid=1&callback=jQuery32107753726473094489_1697294620659&_=1697294621138'
